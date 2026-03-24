@@ -1,0 +1,825 @@
+{
+  "_meta": {
+    "version": "1.1",
+    "language": "af",
+    "description": "Afrikaans word etymology data for Woordreis",
+    "sources": [
+      "Wiktionary (en.wiktionary.org) — primary etymology source",
+      "WAT Aanlyn (woordeboek.co.za) — authoritative Afrikaans dictionary",
+      "Etymonline (etymonline.com) — supplementary for English-origin words",
+      "Wikipedia: Afrikaans loanwords from Malay, Khoikhoi, Portuguese"
+    ],
+    "notes": "Coordinates are [longitude, latitude]. South Africa endpoint is always Cape Town [18.4, -33.9]."
+  },
+  "words": {
+    "koffie": {
+      "afrikaans": "koffie",
+      "english": "coffee",
+      "part_of_speech": "noun",
+      "source_language": "Kaffa via Arabic/Turkish/Dutch",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/koffie",
+      "verified": true,
+      "origin": {
+        "word": "Kaffa",
+        "language": "Kaffa",
+        "period": "9th century",
+        "meaning": "Region name where coffee grew wild",
+        "location_name": "Kaffa, Ethiopia",
+        "coordinates": [36.2, 7.3]
+      },
+      "narrative": "Die reis van koffie van die Ethiopiese hooglande na die res van die wêreld.",
+      "stages": [
+        {
+          "word": "Kaffa",
+          "language": "Kaffa",
+          "period": "9de eeu",
+          "description": "Die oorsprong van die koffieplant. Volgens legende het 'n bokwagter genaamd Kaldi die effek van die bessies op sy bokke opgemerk.",
+          "coordinates": [36.2, 7.3],
+          "location_name": "Kaffa, Ethiopië"
+        },
+        {
+          "word": "Qahwah",
+          "language": "Arabies",
+          "period": "15de eeu",
+          "description": "Die Arabiere het die eerste gewas verbou en die drankie 'qahwah' genoem.",
+          "coordinates": [43.2, 13.3],
+          "location_name": "Mokka, Jemen"
+        },
+        {
+          "word": "Kahve",
+          "language": "Turks",
+          "period": "16de eeu",
+          "description": "Die Ottomaanse Ryk het koffiehuise gewild gemaak. Die woord het verander na die Turkse 'kahve'.",
+          "coordinates": [28.9, 41.0],
+          "location_name": "Istanboel, Turkye"
+        },
+        {
+          "word": "Caffè",
+          "language": "Italiaans",
+          "period": "17de eeu",
+          "description": "Handelaars het koffie na Europa gebring. Venesië was die eerste groot Europese hawe.",
+          "coordinates": [12.3, 45.4],
+          "location_name": "Venesië, Italië"
+        },
+        {
+          "word": "Koffie",
+          "language": "Nederlands",
+          "period": "17de eeu",
+          "description": "Die Nederlanders het die handel in koffie oorheers en dit na hul kolonies versprei.",
+          "coordinates": [4.9, 52.3],
+          "location_name": "Amsterdam, Nederland"
+        },
+        {
+          "word": "Koffie",
+          "language": "Afrikaans",
+          "period": "17de eeu",
+          "description": "Koffie het saam met die vroeë setlaars in die Kaap aangekom.",
+          "coordinates": [18.4, -33.9],
+          "location_name": "Kaapstad, Suid-Afrika"
+        }
+      ]
+    },
+    "robot": {
+      "afrikaans": "robot",
+      "english": "robot; traffic light",
+      "part_of_speech": "noun",
+      "source_language": "Czech",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/robot",
+      "verified": true,
+      "origin": {
+        "word": "robota",
+        "language": "Tsjeggies",
+        "period": "1920",
+        "meaning": "dwangarbeid of slawerny",
+        "location_name": "Praag, Tsjeggië",
+        "coordinates": [14.4, 50.1]
+      },
+      "narrative": "Van Tsjeggiese teater na Suid-Afrikaanse strate.",
+      "stages": [
+        {
+          "word": "Robota",
+          "language": "Tsjeggies",
+          "period": "1920",
+          "description": "Karel Čapek het die woord in sy toneelstuk R.U.R. gebruik om kunsmatige mense te beskryf.",
+          "coordinates": [14.4, 50.1],
+          "location_name": "Praag, Tsjeggië"
+        },
+        {
+          "word": "Robot",
+          "language": "Engels",
+          "period": "1923",
+          "description": "Die toneelstuk is in Engels vertaal en die woord het wêreldwyd bekend geword.",
+          "coordinates": [-0.1, 51.5],
+          "location_name": "Londen, VK"
+        },
+        {
+          "word": "Robot",
+          "language": "Afrikaans",
+          "period": "1930s",
+          "description": "In Suid-Afrika word die woord uniek gebruik om na verkeersligte te verwys.",
+          "coordinates": [28.0, -26.2],
+          "location_name": "Johannesburg, SA"
+        }
+      ]
+    },
+    "braai": {
+      "afrikaans": "braai",
+      "english": "to barbecue; a South African barbecue gathering",
+      "part_of_speech": "verb / noun",
+      "source_language": "Dutch",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/braai",
+      "verified": true,
+      "origin": {
+        "word": "braden",
+        "language": "Dutch",
+        "language_code": "nl",
+        "period": "17th century",
+        "meaning": "to roast, to fry",
+        "location_name": "Amsterdam, Netherlands",
+        "coordinates": [4.9, 52.4]
+      },
+      "narrative": "Dutch VOC settlers arrived at the Cape in 1652 bringing 'braden' (to roast). Mixed with Khoikhoi open-fire cooking traditions over generations, the word shortened into 'braai' — now a cornerstone of South African culture.",
+      "stages": [
+        {
+          "word": "braden",
+          "language": "Dutch",
+          "period": "17th century",
+          "description": "Dutch VOC settlers bring this word for roasting to the Cape Colony.",
+          "coordinates": [4.9, 52.4],
+          "location_name": "Amsterdam, Netherlands"
+        },
+        {
+          "word": "braai",
+          "language": "Cape Dutch (proto-Afrikaans)",
+          "period": "18th century",
+          "description": "Word shortens as Cape Dutch evolves among settlers and Khoikhoi people.",
+          "coordinates": [18.4, -33.9],
+          "location_name": "Kaapstad, South Africa"
+        }
+      ]
+    },
+    "piesang": {
+      "afrikaans": "piesang",
+      "english": "banana",
+      "part_of_speech": "noun",
+      "source_language": "Malay",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/piesang",
+      "verified": true,
+      "origin": {
+        "word": "pisang",
+        "language": "Malay",
+        "language_code": "ms",
+        "period": "Ancient",
+        "meaning": "banana plant",
+        "location_name": "Java, Dutch East Indies (now Indonesia)",
+        "coordinates": [107.0, -6.2]
+      },
+      "narrative": "The Malay word 'pisang' travelled with enslaved people and traders from Batavia (Jakarta) to the Cape Colony in the 1600s–1700s. The Cape Malay community integrated it into everyday Cape Dutch speech, where it became 'piesang'.",
+      "stages": [
+        {
+          "word": "pisang",
+          "language": "Malay",
+          "period": "Ancient",
+          "description": "Original Malay word for banana, used across the archipelago.",
+          "coordinates": [107.0, -6.2],
+          "location_name": "Batavia (Jakarta), Java"
+        },
+        {
+          "word": "pisang",
+          "language": "Cape Malay",
+          "period": "17th–18th century",
+          "description": "Cape Malay enslaved people carry the word via the Indian Ocean route to the Cape.",
+          "coordinates": [44.0, -20.0],
+          "location_name": "Indian Ocean route"
+        },
+        {
+          "word": "piesang",
+          "language": "Afrikaans",
+          "period": "18th century",
+          "description": "Absorbed into Afrikaans with a slight spelling change — now the standard word.",
+          "coordinates": [18.4, -33.9],
+          "location_name": "Kaapstad, South Africa"
+        }
+      ]
+    },
+    "baie": {
+      "afrikaans": "baie",
+      "english": "very; many; a lot (e.g. baie dankie = thank you very much)",
+      "part_of_speech": "adverb / adjective",
+      "source_language": "Malay",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/baie",
+      "verified": true,
+      "origin": {
+        "word": "banyak",
+        "language": "Malay",
+        "language_code": "ms",
+        "period": "Ancient",
+        "meaning": "many, a lot",
+        "location_name": "Malay Archipelago",
+        "coordinates": [107.0, -6.2]
+      },
+      "narrative": "'Baie' — one of the most common Afrikaans words — traces back to the Malay 'banyak' (many). It arrived at the Cape through the Cape Malay community and gradually replaced the Dutch 'veel' in everyday speech.",
+      "stages": [
+        {
+          "word": "banyak",
+          "language": "Malay",
+          "period": "Ancient",
+          "description": "Core Malay word meaning 'many' or 'much'.",
+          "coordinates": [107.0, -6.2],
+          "location_name": "Malay Archipelago (Java/Sumatra)"
+        },
+        {
+          "word": "baie",
+          "language": "Cape Malay / Afrikaans",
+          "period": "17th–18th century",
+          "description": "Adopted by Cape Malay community, replacing the Dutch 'veel' in everyday speech.",
+          "coordinates": [18.4, -33.9],
+          "location_name": "Kaapstad, South Africa"
+        }
+      ]
+    },
+    "gogga": {
+      "afrikaans": "gogga",
+      "english": "insect, bug, creepy-crawly",
+      "part_of_speech": "noun",
+      "source_language": "Khoikhoi",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/gogga",
+      "verified": true,
+      "origin": {
+        "word": "xoxo",
+        "language": "Khoikhoi",
+        "language_code": "naq",
+        "period": "Ancient",
+        "meaning": "insect, small creature",
+        "location_name": "Western Cape, Southern Africa",
+        "coordinates": [19.0, -32.0]
+      },
+      "narrative": "'Gogga' comes from the Khoikhoi — the indigenous pastoralists of the Western Cape. Their click language gave Afrikaans several unique words. 'Xoxo' described insects; it is one of very few Khoikhoi loanwords preserved in everyday Afrikaans.",
+      "stages": [
+        {
+          "word": "xoxo",
+          "language": "Khoikhoi",
+          "period": "Ancient",
+          "description": "Indigenous Khoikhoi word for insects, used across the Western Cape region.",
+          "coordinates": [19.0, -32.0],
+          "location_name": "Western Cape (Khoikhoi territory)"
+        },
+        {
+          "word": "gogga",
+          "language": "Afrikaans",
+          "period": "17th–18th century",
+          "description": "Absorbed into Cape Dutch/Afrikaans, losing the click sound but preserving the meaning.",
+          "coordinates": [18.4, -33.9],
+          "location_name": "Kaapstad, South Africa"
+        }
+      ]
+    },
+    "baadjie": {
+      "afrikaans": "baadjie",
+      "english": "jacket, short coat",
+      "part_of_speech": "noun",
+      "source_language": "Malay",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/baadjie",
+      "verified": true,
+      "origin": {
+        "word": "baju",
+        "language": "Malay",
+        "language_code": "ms",
+        "period": "Ancient",
+        "meaning": "garment, shirt",
+        "location_name": "Malay Archipelago",
+        "coordinates": [107.0, -6.2]
+      },
+      "narrative": "The Malay 'baju' (garment) arrived at the Cape with enslaved Cape Malay people from Batavia. It became 'baadjie' in Afrikaans. English also borrowed this word as 'baize', showing how Indian Ocean trade connected languages across continents.",
+      "stages": [
+        {
+          "word": "baju",
+          "language": "Malay",
+          "period": "Ancient",
+          "description": "Malay word for any garment worn on the upper body.",
+          "coordinates": [107.0, -6.2],
+          "location_name": "Batavia (Jakarta), Java"
+        },
+        {
+          "word": "badju",
+          "language": "Cape Malay",
+          "period": "17th century",
+          "description": "Arrives at the Cape with enslaved Malay people, phonetically adapted.",
+          "coordinates": [55.0, -4.0],
+          "location_name": "Indian Ocean route"
+        },
+        {
+          "word": "baadjie",
+          "language": "Afrikaans",
+          "period": "18th century",
+          "description": "Fully integrated into Afrikaans as the everyday word for jacket.",
+          "coordinates": [18.4, -33.9],
+          "location_name": "Kaapstad, South Africa"
+        }
+      ]
+    },
+    "soebat": {
+      "afrikaans": "soebat",
+      "english": "to beg, to implore, to plead",
+      "part_of_speech": "verb",
+      "source_language": "Arabic via Malay",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/soebat",
+      "verified": false,
+      "notes": "Etymology via Arabic prayer language is widely cited but verify against WAT. Some sources link to Arabic 'subha' (prayer beads). Cross-check with Wiktionary entry.",
+      "origin": {
+        "word": "subhāt",
+        "language": "Arabic",
+        "language_code": "ar",
+        "period": "Ancient",
+        "meaning": "to pray, to beg God",
+        "location_name": "Arabian Peninsula",
+        "coordinates": [45.0, 23.0]
+      },
+      "narrative": "Through the Islamic faith brought by Cape Malay enslaved people, several Arabic words entered Afrikaans. 'Soebat' traces to Arabic prayer language, passing through Malay before arriving at the Cape — showing how religion shaped language on Indian Ocean trade routes.",
+      "stages": [
+        {
+          "word": "subhāt",
+          "language": "Arabic",
+          "period": "Ancient",
+          "description": "Arabic word relating to prayer and supplication.",
+          "coordinates": [45.0, 23.0],
+          "location_name": "Arabian Peninsula"
+        },
+        {
+          "word": "subhat",
+          "language": "Malay",
+          "period": "15th century",
+          "description": "Adopted into Malay through the spread of Islam across Southeast Asia.",
+          "coordinates": [107.0, -6.2],
+          "location_name": "Malay Archipelago"
+        },
+        {
+          "word": "soebat",
+          "language": "Afrikaans",
+          "period": "18th century",
+          "description": "Arrived at the Cape via Cape Malay community; now means 'to beg or plead'.",
+          "coordinates": [18.4, -33.9],
+          "location_name": "Kaapstad, South Africa"
+        }
+      ]
+    },
+    "tjommie": {
+      "afrikaans": "tjommie",
+      "english": "friend, pal, mate (informal)",
+      "part_of_speech": "noun",
+      "source_language": "English",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/tjommie",
+      "verified": true,
+      "origin": {
+        "word": "chum",
+        "language": "English",
+        "language_code": "en",
+        "period": "19th century",
+        "meaning": "close friend, roommate",
+        "location_name": "Britain",
+        "coordinates": [-0.1, 51.5]
+      },
+      "narrative": "'Tjommie' comes from the English 'chum' (friend), which arrived in South Africa during British colonial rule in the 19th century. The word gained the typical Afrikaans 'tj-' sound and is now a beloved informal term especially popular with children.",
+      "stages": [
+        {
+          "word": "chum",
+          "language": "English",
+          "period": "19th century",
+          "description": "British informal word for a close friend or roommate.",
+          "coordinates": [-0.1, 51.5],
+          "location_name": "Britain"
+        },
+        {
+          "word": "tjommie",
+          "language": "Afrikaans",
+          "period": "19th–20th century",
+          "description": "Adapted with the Afrikaans 'tj-' click-like sound; now beloved informal slang.",
+          "coordinates": [18.4, -33.9],
+          "location_name": "Kaapstad, South Africa"
+        }
+      ]
+    },
+    "mielie": {
+      "afrikaans": "mielie",
+      "english": "corn, maize (Zea mays)",
+      "part_of_speech": "noun",
+      "source_language": "Portuguese",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/mielie",
+      "verified": true,
+      "origin": {
+        "word": "milho",
+        "language": "Portuguese",
+        "language_code": "pt",
+        "period": "15th–16th century",
+        "meaning": "grain, millet, corn",
+        "location_name": "Portugal",
+        "coordinates": [-9.1, 38.7]
+      },
+      "narrative": "Portuguese sailors were among the first Europeans to bring maize (originally from the Americas) to Africa in the 1500s. Their word 'milho' became 'mielie' in Afrikaans — now a staple food across South Africa, used for pap, roosterkoek, and more.",
+      "stages": [
+        {
+          "word": "milho",
+          "language": "Portuguese",
+          "period": "15th century",
+          "description": "Portuguese sailors name the New World crop 'milho' and bring it to Africa.",
+          "coordinates": [-9.1, 38.7],
+          "location_name": "Lisbon, Portugal"
+        },
+        {
+          "word": "milho",
+          "language": "Portuguese (West Africa)",
+          "period": "16th century",
+          "description": "Portuguese trading posts along the African coast spread the crop and the word southward.",
+          "coordinates": [15.0, -8.0],
+          "location_name": "Portuguese West Africa (Angola)"
+        },
+        {
+          "word": "mielie",
+          "language": "Afrikaans",
+          "period": "17th–18th century",
+          "description": "Fully adopted into Afrikaans — now a staple food and cultural icon.",
+          "coordinates": [18.4, -33.9],
+          "location_name": "Kaapstad, South Africa"
+        }
+      ]
+    },
+    "kraal": {
+      "afrikaans": "kraal",
+      "english": "livestock enclosure; village",
+      "part_of_speech": "noun",
+      "source_language": "Portuguese",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/kraal",
+      "verified": true,
+      "origin": {
+        "word": "curral",
+        "language": "Portugees",
+        "period": "15de eeu",
+        "meaning": "omheining vir vee",
+        "location_name": "Lissabon, Portugal",
+        "coordinates": [
+          -9.1,
+          38.7
+        ]
+      },
+      "narrative": "Vanaf die Portugese 'curral' het hierdie woord saam met seevaarders om die kus van Afrika gereis om 'n sentrale deel van die Suid-Afrikaanse landskap te word.",
+      "stages": [
+        {
+          "word": "curral",
+          "language": "Portugees",
+          "period": "15de eeu",
+          "description": "Die oorspronklike woord vir 'n kraal of omheining.",
+          "coordinates": [
+            -9.1,
+            38.7
+          ],
+          "location_name": "Lissabon, Portugal"
+        },
+        {
+          "word": "kraal",
+          "language": "Afrikaans",
+          "period": "17de eeu",
+          "description": "Aangeneem in die Kaap en word nou algemeen gebruik vir veehokke.",
+          "coordinates": [
+            18.4,
+            -33.9
+          ],
+          "location_name": "Kaapstad, SA"
+        }
+      ]
+    },
+    "sambreel": {
+      "afrikaans": "sambreel",
+      "english": "umbrella",
+      "part_of_speech": "noun",
+      "source_language": "Portuguese",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/sambreel",
+      "verified": true,
+      "origin": {
+        "word": "sombreiro",
+        "language": "Portugees",
+        "period": "16de eeu",
+        "meaning": "iets wat skadu gee",
+        "location_name": "Lissabon, Portugal",
+        "coordinates": [
+          -9.1,
+          38.7
+        ]
+      },
+      "narrative": "Die woord kom van 'sombra' (skaduwee). Dit wys hoe vroeë kontak met Portugese handelaars die name van alledaagse voorwerpe beïnvloed het.",
+      "stages": [
+        {
+          "word": "sombreiro",
+          "language": "Portugees",
+          "period": "16de eeu",
+          "description": "Gebruik om 'n hoed of skerm te beskryf wat skadu gee.",
+          "coordinates": [
+            -9.1,
+            38.7
+          ],
+          "location_name": "Lissabon, Portugal"
+        },
+        {
+          "word": "sambreel",
+          "language": "Afrikaans",
+          "period": "18de eeu",
+          "description": "Die klank het in die Kaap verander na die unieke Afrikaanse 'sambreel'.",
+          "coordinates": [
+            18.4,
+            -33.9
+          ],
+          "location_name": "Kaapstad, SA"
+        }
+      ]
+    },
+    "bakkie": {
+      "afrikaans": "bakkie",
+      "english": "pickup truck; small bowl",
+      "part_of_speech": "noun",
+      "source_language": "French/Dutch",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/bakkie",
+      "verified": true,
+      "origin": {
+        "word": "bac",
+        "language": "Frans",
+        "period": "Middeleeue",
+        "meaning": "trog of bak",
+        "location_name": "Parys, Frankryk",
+        "coordinates": [
+          2.3,
+          48.8
+        ]
+      },
+      "narrative": "Dit het begin as 'n Franse woord vir 'n houer, geword 'n klein bak in Nederlands, en uiteindelik 'n Suid-Afrikaanse legende op vier wiele.",
+      "stages": [
+        {
+          "word": "bac",
+          "language": "Frans",
+          "period": "14de eeu",
+          "description": "Franse woord vir 'n groot houer of bak.",
+          "coordinates": [
+            2.3,
+            48.8
+          ],
+          "location_name": "Parys, Frankryk"
+        },
+        {
+          "word": "bak",
+          "language": "Nederlands",
+          "period": "17de eeu",
+          "description": "Die Nederlanders het the verkleinwoord 'bakkie' gemaak.",
+          "coordinates": [
+            4.9,
+            52.3
+          ],
+          "location_name": "Amsterdam, Nederland"
+        },
+        {
+          "word": "bakkie",
+          "language": "Afrikaans",
+          "period": "20ste eeu",
+          "description": "Nou word dit uniek in SA gebruik vir 'n ligte vragmotor.",
+          "coordinates": [
+            28.0,
+            -26.2
+          ],
+          "location_name": "Johannesburg, SA"
+        }
+      ]
+    },
+    "piering": {
+      "afrikaans": "piering",
+      "english": "saucer",
+      "part_of_speech": "noun",
+      "source_language": "Malay",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/piering",
+      "verified": true,
+      "origin": {
+        "word": "piring",
+        "language": "Maleis",
+        "period": "Ancient",
+        "meaning": "bord of piering",
+        "location_name": "Java, Indonesië",
+        "coordinates": [
+          106.8,
+          -6.2
+        ]
+      },
+      "narrative": "Nog 'n woord wat die ryk invloed van die Maleise kultuur op die Afrikaanse kombuis wys.",
+      "stages": [
+        {
+          "word": "piring",
+          "language": "Maleis",
+          "period": "Onbekend",
+          "description": "Die algemene woord vir 'n klein bordjie in Suidoos-Asië.",
+          "coordinates": [
+            106.8,
+            -6.2
+          ],
+          "location_name": "Batavia, Indonesië"
+        },
+        {
+          "word": "piering",
+          "language": "Afrikaans",
+          "period": "18de eeu",
+          "description": "Die woord het saam met die speseryhandel na die Kaap gekom.",
+          "coordinates": [
+            18.4,
+            -33.9
+          ],
+          "location_name": "Kaapstad, SA"
+        }
+      ]
+    },
+    "eina": {
+      "afrikaans": "eina",
+      "english": "ouch; expression of pain",
+      "part_of_speech": "interjection",
+      "source_language": "Khoekhoe",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/eina",
+      "verified": true,
+      "origin": {
+        "word": "ê-ina",
+        "language": "Khoekhoe",
+        "period": "Ancient",
+        "meaning": "uitroep van pyn",
+        "location_name": "Wes-Kaap, SA",
+        "coordinates": [
+          19.0,
+          -32.0
+        ]
+      },
+      "narrative": "Hierdie is een van die oudste woorde in Suid-Afrika en kom direk van die inheemse Khoekhoe-mense.",
+      "stages": [
+        {
+          "word": "ê-ina",
+          "language": "Khoekhoe",
+          "period": "Antiek",
+          "description": "Inheemse uitroep gebruik deur die herders van die Kaap.",
+          "coordinates": [
+            19.0,
+            -32.0
+          ],
+          "location_name": "Sederberg-streek, SA"
+        },
+        {
+          "word": "eina",
+          "language": "Afrikaans",
+          "period": "17de eeu",
+          "description": "Geabsorbeer in Afrikaans as die standaard uitroep vir pyn.",
+          "coordinates": [
+            18.4,
+            -33.9
+          ],
+          "location_name": "Kaapstad, SA"
+        }
+      ]
+    },
+    "kombers": {
+      "afrikaans": "kombers",
+      "english": "blanket",
+      "part_of_speech": "noun",
+      "source_language": "Portuguese/Dutch",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/kombers",
+      "verified": true,
+      "origin": {
+        "word": "coberta",
+        "language": "Portugees",
+        "period": "16de eeu",
+        "meaning": "bedekking",
+        "location_name": "Lissabon, Portugal",
+        "coordinates": [
+          -9.1,
+          38.7
+        ]
+      },
+      "narrative": "Die Portugese 'coberta' het in Nederlands 'kombaars' geword en uiteindelik die Afrikaanse 'kombers'.",
+      "stages": [
+        {
+          "word": "coberta",
+          "language": "Portugees",
+          "period": "16de eeu",
+          "coordinates": [
+            -9.1,
+            38.7
+          ],
+          "location_name": "Portugal"
+        },
+        {
+          "word": "kombaars",
+          "language": "Nederlands",
+          "period": "17de eeu",
+          "coordinates": [
+            4.9,
+            52.3
+          ],
+          "location_name": "Amsterdam, Nederland"
+        },
+        {
+          "word": "kombers",
+          "language": "Afrikaans",
+          "period": "18de eeu",
+          "coordinates": [
+            18.4,
+            -33.9
+          ],
+          "location_name": "Kaapstad, SA"
+        }
+      ]
+    },
+    "servet": {
+      "afrikaans": "servet",
+      "english": "napkin",
+      "part_of_speech": "noun",
+      "source_language": "French",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/servet",
+      "verified": true,
+      "origin": {
+        "word": "serviette",
+        "language": "Frans",
+        "period": "14de eeu",
+        "meaning": "om te dien / tafeldoek",
+        "location_name": "Parys, Frankryk",
+        "coordinates": [
+          2.3,
+          48.8
+        ]
+      },
+      "narrative": "Hierdie woord het van Frankryk na Nederland gereis saam met die Hugenote-vlugtelinge voor dit die Kaap bereik het.",
+      "stages": [
+        {
+          "word": "serviette",
+          "language": "Frans",
+          "period": "14de eeu",
+          "coordinates": [
+            2.3,
+            48.8
+          ],
+          "location_name": "Frankryk"
+        },
+        {
+          "word": "servet",
+          "language": "Nederlands",
+          "period": "17de eeu",
+          "coordinates": [
+            4.9,
+            52.3
+          ],
+          "location_name": "Amsterdam, Nederland"
+        },
+        {
+          "word": "servet",
+          "language": "Afrikaans",
+          "period": "18de eeu",
+          "coordinates": [
+            18.4,
+            -33.9
+          ],
+          "location_name": "Kaapstad, SA"
+        }
+      ]
+    },
+    "briek": {
+      "afrikaans": "briek",
+      "english": "brake",
+      "part_of_speech": "noun",
+      "source_language": "English",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/briek",
+      "verified": true,
+      "origin": {
+        "word": "brake",
+        "language": "Engels",
+        "period": "19de eeu",
+        "meaning": "stoptoestel",
+        "location_name": "Londen, VK",
+        "coordinates": [
+          -0.1,
+          51.5
+        ]
+      },
+      "narrative": "Soos tegnologie in die 1800's ontwikkel het, het Afrikaans baie tegniese woorde uit Engels aangeneem.",
+      "stages": [
+        {
+          "word": "brake",
+          "language": "Engels",
+          "period": "1850",
+          "coordinates": [
+            -0.1,
+            51.5
+          ],
+          "location_name": "Londen, VK"
+        },
+        {
+          "word": "briek",
+          "language": "Afrikaans",
+          "period": "1900",
+          "description": "Phonetiese aanpassing na Afrikaans.",
+          "coordinates": [
+            18.4,
+            -33.9
+          ],
+          "location_name": "Kaapstad, SA"
+        }
+      ]
+    }
+  }
+}

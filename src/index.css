@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-mono: "Share Tech Mono", monospace;
+  --font-serif: "Libre Baskerville", serif;
+  
+  --color-bg: #b5cfc3;
+  --color-ocean: #b5cfc3;
+  --color-land: #8db8a6;
+  --color-land-h: #6d9e8c;
+  --color-border: #7aaa96;
+  --color-panel: #a4c4b6;
+  --color-panel-d: #88ad9e;
+  --color-ink: #162620;
+  --color-ink2: #2e5244;
+  --color-ink3: #5a8878;
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+body {
+  @apply bg-bg text-ink antialiased font-mono overflow-hidden;
+}
