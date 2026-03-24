@@ -820,6 +820,259 @@
           "location_name": "Kaapstad, SA"
         }
       ]
+    },
+    "sjambok": {
+      "afrikaans": "sjambok",
+      "english": "heavy leather whip",
+      "part_of_speech": "noun",
+      "source_language": "Persian via Malay",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/sjambok",
+      "verified": true,
+      "origin": {
+        "word": "chābuk",
+        "language": "Persies",
+        "period": "Antiek",
+        "meaning": "vinnig of rats",
+        "location_name": "Persië (Iran)",
+        "coordinates": [
+          53.6,
+          32.4
+        ]
+      },
+      "narrative": "Hierdie woord het 'n lang reis van Persië na Maleisië gemaak voordat dit saam met die Maleise mense na die Kaap gekom het.",
+      "stages": [
+        {
+          "word": "chābuk",
+          "language": "Persies",
+          "period": "Antiek",
+          "description": "Beteken 'vinnig' of 'rats', wat later na 'n sweep verwys het.",
+          "coordinates": [
+            53.6,
+            32.4
+          ],
+          "location_name": "Persië"
+        },
+        {
+          "word": "cambuk",
+          "language": "Maleis",
+          "period": "15de eeu",
+          "description": "Die woord word in Suidoos-Asië gebruik vir 'n sweep.",
+          "coordinates": [
+            101.7,
+            3.1
+          ],
+          "location_name": "Maleisië"
+        },
+        {
+          "word": "sjambok",
+          "language": "Afrikaans",
+          "period": "18de eeu",
+          "description": "Word 'n standaardterm in Suid-Afrika vir 'n swaar sweep.",
+          "coordinates": [
+            18.4,
+            -33.9
+          ],
+          "location_name": "Kaapstad, SA"
+        }
+      ]
+    },
+    "assegaai": {
+      "afrikaans": "assegaai",
+      "english": "spear; javelin",
+      "part_of_speech": "noun",
+      "source_language": "Berber via Arabic/Portuguese",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/assegaai",
+      "verified": true,
+      "origin": {
+        "word": "az-zagaya",
+        "language": "Berber",
+        "period": "Middeleeue",
+        "meaning": "werpspies",
+        "location_name": "Noord-Afrika",
+        "coordinates": [
+          0.0,
+          30.0
+        ]
+      },
+      "narrative": "Die woord het van die Berbers na die Arabiere gegaan, toe na die Portugese seevaarders, en uiteindelik na Suid-Afrika.",
+      "stages": [
+        {
+          "word": "az-zagaya",
+          "language": "Berber/Arabies",
+          "period": "12de eeu",
+          "description": "Die oorspronklike term vir 'n ligte spies in Noord-Afrika.",
+          "coordinates": [
+            0.0,
+            30.0
+          ],
+          "location_name": "Noord-Afrika"
+        },
+        {
+          "word": "azagaia",
+          "language": "Portugees",
+          "period": "15de eeu",
+          "description": "Portugese ontdekkingsreisigers bring die woord na die kus van Afrika.",
+          "coordinates": [
+            -9.1,
+            38.7
+          ],
+          "location_name": "Lissabon, Portugal"
+        },
+        {
+          "word": "assegaai",
+          "language": "Afrikaans",
+          "period": "17de eeu",
+          "description": "Word die algemene term vir 'n spies in Suid-Afrika.",
+          "coordinates": [
+            18.4,
+            -33.9
+          ],
+          "location_name": "Kaapstad, SA"
+        }
+      ]
+    },
+    "blatjang": {
+      "afrikaans": "blatjang",
+      "english": "chutney",
+      "part_of_speech": "noun",
+      "source_language": "Malay",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/blatjang",
+      "verified": true,
+      "origin": {
+        "word": "belacan",
+        "language": "Maleis",
+        "period": "Onbekend",
+        "meaning": "garnale-pasta of spesery",
+        "location_name": "Java, Indonesië",
+        "coordinates": [
+          106.8,
+          -6.2
+        ]
+      },
+      "narrative": "Oorspronklik 'n Maleise speserypasta, het dit in Suid-Afrika ontwikkel in die soet-suur blatjang wat ons vandag ken.",
+      "stages": [
+        {
+          "word": "belacan",
+          "language": "Maleis",
+          "period": "17de eeu",
+          "description": "In Indonesië was dit 'n sterk spesery gemaak van garnale.",
+          "coordinates": [
+            106.8,
+            -6.2
+          ],
+          "location_name": "Batavia, Indonesië"
+        },
+        {
+          "word": "blatjang",
+          "language": "Afrikaans",
+          "period": "18de eeu",
+          "description": "Die resep en naam het aangepas by plaaslike bestanddele in die Kaap.",
+          "coordinates": [
+            18.4,
+            -33.9
+          ],
+          "location_name": "Kaapstad, SA"
+        }
+      ]
+    },
+    "pondok": {
+      "afrikaans": "pondok",
+      "english": "hut; small simple house",
+      "part_of_speech": "noun",
+      "source_language": "Malay",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/pondok",
+      "verified": true,
+      "origin": {
+        "word": "pondok",
+        "language": "Maleis",
+        "period": "Onbekend",
+        "meaning": "hut of skuiling",
+        "location_name": "Maleisië",
+        "coordinates": [
+          101.7,
+          3.1
+        ]
+      },
+      "narrative": "Hierdie Maleise woord vir 'n eenvoudige skuiling het 'n algemene term geword vir klein huisies in Suid-Afrika.",
+      "stages": [
+        {
+          "word": "pondok",
+          "language": "Maleis",
+          "period": "17de eeu",
+          "description": "Gebruik vir tydelike skuilings of klein hutte in Suidoos-Asië.",
+          "coordinates": [
+            101.7,
+            3.1
+          ],
+          "location_name": "Maleisië"
+        },
+        {
+          "word": "pondok",
+          "language": "Afrikaans",
+          "period": "18de eeu",
+          "description": "In die Kaap gebruik vir eenvoudige arbeidershuisies.",
+          "coordinates": [
+            18.4,
+            -33.9
+          ],
+          "location_name": "Kaapstad, SA"
+        }
+      ]
+    },
+    "kappie": {
+      "afrikaans": "kappie",
+      "english": "bonnet; circumflex accent",
+      "part_of_speech": "noun",
+      "source_language": "Dutch via Latin",
+      "wiktionary_url": "https://en.wiktionary.org/wiki/kappie",
+      "verified": true,
+      "origin": {
+        "word": "cappa",
+        "language": "Latyn",
+        "period": "Antiek",
+        "meaning": "mantel of hoofbedekking",
+        "location_name": "Rome, Italië",
+        "coordinates": [
+          12.5,
+          41.9
+        ]
+      },
+      "narrative": "Van die Romeinse 'cappa' na die Nederlandse 'kapje', het dit in Afrikaans beide 'n kledingstuk en 'n leesteken geword.",
+      "stages": [
+        {
+          "word": "cappa",
+          "language": "Latyn",
+          "period": "4de eeu",
+          "description": "Die Latynse woord vir 'n mantel met 'n kappie.",
+          "coordinates": [
+            12.5,
+            41.9
+          ],
+          "location_name": "Rome, Italië"
+        },
+        {
+          "word": "kapje",
+          "language": "Nederlands",
+          "period": "16de eeu",
+          "description": "Nederlandse verkleinwoord vir 'n kap of hoed.",
+          "coordinates": [
+            4.9,
+            52.3
+          ],
+          "location_name": "Amsterdam, Nederland"
+        },
+        {
+          "word": "kappie",
+          "language": "Afrikaans",
+          "period": "18de eeu",
+          "description": "Verwys na die tradisionele sonhoed en die leesteken op die 'ê'.",
+          "coordinates": [
+            18.4,
+            -33.9
+          ],
+          "location_name": "Kaapstad, SA"
+        }
+      ]
     }
   }
 }
