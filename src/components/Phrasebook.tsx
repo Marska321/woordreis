@@ -54,7 +54,7 @@ const PHRASEBOOK_DATA: PhraseCategory[] = [
   }
 ];
 
-const Phrasebook: React.FC = () => {
+const Phrasebook: React.FC = React.memo(() => {
   const [searchTerm, setSearchTerm] = useState('');
 
   const filteredData = PHRASEBOOK_DATA.map(cat => ({
@@ -120,6 +120,6 @@ const Phrasebook: React.FC = () => {
       </div>
     </div>
   );
-};
+});
 
 export default Phrasebook;

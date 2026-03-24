@@ -17,6 +17,12 @@ export interface WordOrigin {
   coordinates: [number, number];
 }
 
+export interface NarrativeSegment {
+  text: string;
+  stage_index: number;
+  audio_url?: string;
+}
+
 export interface WordEtymology {
   afrikaans: string;
   english: string;
@@ -26,6 +32,8 @@ export interface WordEtymology {
   verified?: boolean;
   origin: WordOrigin;
   narrative: string;
+  sentence?: string;
+  narrative_segments?: NarrativeSegment[];
   stages: MigrationStage[];
   notes?: string;
 }

@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import * as topojson from 'topojson-client';
 import { WordEtymology, MigrationStage } from '../types';
+import { getArcPoints } from '../lib/utils';
 
 interface MapProps {
   etymology: WordEtymology | null;
@@ -29,9 +30,9 @@ const Map: React.FC<MapProps> = ({ etymology, currentStage }) => {
   }, []);
 
   useEffect(() => {
-    fetch('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json')
-      .then(res => res.json())
-      .then(data => setWorldData(data));
+    import('../data/countries-110m.json').then(module => {
+      setWorldData(module.default || module);
+    }).catch(err => console.error("Failed to load map data offline:", err));
   }, []);
 
   useEffect(() => {
@@ -95,36 +96,50 @@ const Map: React.FC<MapProps> = ({ etymology, currentStage }) => {
 
     if (etymology && etymology.stages.length > 0) {
       const stages = etymology.stages;
-      const lineData = stages.map(s => projection(s.coordinates) as [number, number]);
-
-      // Draw route line
-      const lineGenerator = d3.line<[number, number]>()
-        .curve(d3.curveCatmullRom.alpha(0.5));
-
-      const routePath = g.append('path')
-        .datum(lineData)
-        .attr('d', lineGenerator)
-        .attr('fill', 'none')
-        .attr('stroke', '#162620')
-        .attr('stroke-width', 2.5)
-        .attr('stroke-linecap', 'round')
-        .attr('stroke-linejoin', 'round')
-        .attr('stroke-dasharray', function() {
-          const length = (this as SVGPathElement).getTotalLength();
-          return `${length} ${length}`;
-        })
-        .attr('stroke-dashoffset', function() {
-          return (this as SVGPathElement).getTotalLength();
-        });
-
-      // Animate line based on currentStage
-      const totalStages = stages.length;
-      const progress = (currentStage + 1) / totalStages;
-      const totalLength = (routePath.node() as SVGPathElement).getTotalLength();
       
-      routePath.transition()
-        .duration(1000)
-        .attr('stroke-dashoffset', totalLength * (1 - progress));
+      const lineGenerator = d3.line<[number, number]>();
+
+      if (stages.length > 1) {
+        for (let i = 0; i < stages.length - 1; i++) {
+          const start = stages[i].coordinates;
+          const end = stages[i + 1].coordinates;
+          const segmentPoints = getArcPoints(start as [number, number], end as [number, number]);
+          const lineData = segmentPoints.map(p => projection(p) as [number, number]);
+
+          const routePath = g.append('path')
+            .datum(lineData)
+            .attr('d', lineGenerator)
+            .attr('fill', 'none')
+            .attr('stroke', '#162620')
+            .attr('stroke-width', 2.5)
+            .attr('stroke-linecap', 'round')
+            .attr('stroke-linejoin', 'round');
+
+          const length = (routePath.node() as SVGPathElement).getTotalLength();
+          
+          // Fix visual pop-in by setting strict initial dasharrays
+          routePath.attr('stroke-dasharray', `${length} ${length}`);
+          
+          const isActivated = currentStage > i;
+          const isJustActivated = currentStage === i + 1;
+          
+          if (isActivated) {
+            if (isJustActivated) {
+              // Newly active hop: animate drawing dynamically
+              routePath.attr('stroke-dashoffset', length)
+                .transition()
+                .duration(800) // Fast and punchy
+                .attr('stroke-dashoffset', 0);
+            } else {
+              // Past hops: fully visible instantly
+              routePath.attr('stroke-dashoffset', 0);
+            }
+          } else {
+            // Future hops: totally invisible
+            routePath.attr('stroke-dashoffset', length);
+          }
+        }
+      }
 
       // Draw points
       g.selectAll<SVGCircleElement, MigrationStage>('.stage-point')
@@ -148,6 +163,21 @@ const Map: React.FC<MapProps> = ({ etymology, currentStage }) => {
             .attr('cy', cy)
             .attr('r', i === 0 || i === stages.length - 1 ? 5 : 4)
             .attr('fill', '#162620');
+
+          const locName = (d as MigrationStage).location_name;
+          if (locName) {
+            point.append('text')
+              .attr('x', cx + 12)
+              .attr('y', cy + 4)
+              .text(locName.toUpperCase())
+              .attr('font-size', '10px')
+              .attr('font-weight', 'bold')
+              .attr('fill', '#162620')
+              .attr('stroke', '#b5cfc3') // matching ocean color context
+              .attr('stroke-width', 3)
+              .attr('stroke-linejoin', 'round')
+              .style('paint-order', 'stroke fill');
+          }
         });
 
       // Current stage marker (Bubble)
@@ -158,6 +188,12 @@ const Map: React.FC<MapProps> = ({ etymology, currentStage }) => {
       // but we can add a small indicator here if needed.
     }
 
+    return () => {
+      if (svgRef.current) {
+        d3.select(svgRef.current).interrupt();
+        d3.select(svgRef.current).selectAll('*').interrupt(); // Ensure child paths are interrupted
+      }
+    };
   }, [worldData, etymology, currentStage, dimensions]);
 
   return (

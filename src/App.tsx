@@ -20,7 +20,6 @@ export default function App() {
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const timerRef = useRef<NodeJS.Timeout | null>(null);
 
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
 
@@ -59,17 +58,42 @@ export default function App() {
   }, []);
 
   useEffect(() => {
-    if (isPlaying && etymology) {
-      timerRef.current = setInterval(() => {
+    if (!isPlaying || !etymology) return;
+
+    // Guard: Prevent advancing past the available stages
+    const segments = etymology.narrative_segments;
+    if (!segments || currentStage >= segments.length) {
+      setIsPlaying(false);
+      return;
+    }
+
+    let timeoutId: NodeJS.Timeout;
+    
+    const wordKey = etymology.afrikaans.toLowerCase();
+    const audio = new Audio(`/audio/narratives/${wordKey}_${currentStage}.mp3`);
+    audio.playbackRate = speed;
+
+    audio.onended = () => {
+      // Dramatic pause before stepping to the next map location
+      timeoutId = setTimeout(() => {
+        handleStepForward();
+      }, 500 / speed);
+    };
+
+    audio.play().catch(e => {
+      console.warn("Audio playback guarded by browser policy (or missing file). Falling back to timer:", e);
+      // Fallback: If autoplay is blocked by the browser initially, fallback to the standard 2000ms increment
+      timeoutId = setTimeout(() => {
         handleStepForward();
       }, 2000 / speed);
-    } else {
-      if (timerRef.current) clearInterval(timerRef.current);
-    }
+    });
+
     return () => {
-      if (timerRef.current) clearInterval(timerRef.current);
+      audio.pause();
+      audio.src = '';
+      clearTimeout(timeoutId);
     };
-  }, [isPlaying, etymology, speed, handleStepForward]);
+  }, [isPlaying, etymology, currentStage, speed, handleStepForward]);
 
   // Initial word
   useEffect(() => {

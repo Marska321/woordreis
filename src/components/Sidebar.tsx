@@ -9,7 +9,7 @@ interface SidebarProps {
   onClose?: () => void;
 }
 
-export const Sidebar: React.FC<SidebarProps> = ({ etymology, currentStage, onClose }) => {
+export const Sidebar: React.FC<SidebarProps> = React.memo(({ etymology, currentStage, onClose }) => {
   if (!etymology) {
     return (
       <div className="w-full h-full border-l border-border bg-panel flex flex-col items-center justify-center p-8 text-center">
@@ -117,6 +117,6 @@ export const Sidebar: React.FC<SidebarProps> = ({ etymology, currentStage, onClo
       </div>
     </div>
   );
-};
+});
 
 export default Sidebar;

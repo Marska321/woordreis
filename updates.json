@@ -1,0 +1,362 @@
+{
+  "koffie": {
+    "afrikaans": "koffie",
+    "english": "coffee",
+    "part_of_speech": "noun",
+    "source_language": "Kaffa via Arabic/Turkish/Dutch",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/koffie",
+    "verified": true,
+    "origin": { "word": "Kaffa", "language": "Kaffa", "period": "9th century", "meaning": "Region name where coffee grew wild", "location_name": "Kaffa, Ethiopia", "coordinates": [36.2, 7.3] },
+    "sentence": "Ek drink elke oggend 'n warm koppie koffie.",
+    "narrative": "Die reis van koffie van die Ethiopiese hooglande na die res van die wêreld.",
+    "stages": [
+      {
+        "word": "Kaffa",
+        "language": "Kaffa",
+        "period": "9de eeu",
+        "description": "Die oorsprong van die koffieplant. Volgens legende het 'n bokwagter genaamd Kaldi die effek van die bessies op sy bokke opgemerk.",
+        "coordinates": [36.2, 7.3],
+        "location_name": "Kaffa, Ethiopië"
+      },
+      {
+        "word": "Qahwah",
+        "language": "Arabies",
+        "period": "15de eeu",
+        "description": "Die Arabiere het die eerste gewas verbou en die drankie 'qahwah' genoem.",
+        "coordinates": [43.2, 13.3],
+        "location_name": "Mokka, Jemen"
+      },
+      {
+        "word": "Kahve",
+        "language": "Turks",
+        "period": "16de eeu",
+        "description": "Die Ottomaanse Ryk het koffiehuise gewild gemaak. Die woord het verander na die Turkse 'kahve'.",
+        "coordinates": [28.9, 41.0],
+        "location_name": "Istanboel, Turkye"
+      },
+      {
+        "word": "Caffè",
+        "language": "Italiaans",
+        "period": "17de eeu",
+        "description": "Handelaars het koffie na Europa gebring. Venesië was die eerste groot Europese hawe.",
+        "coordinates": [12.3, 45.4],
+        "location_name": "Venesië, Italië"
+      },
+      {
+        "word": "Koffie",
+        "language": "Nederlands",
+        "period": "17de eeu",
+        "description": "Die Nederlanders het die handel in koffie oorheers en dit na hul kolonies versprei.",
+        "coordinates": [4.9, 52.3],
+        "location_name": "Amsterdam, Nederland"
+      },
+      {
+        "word": "Koffie",
+        "language": "Afrikaans",
+        "period": "17de eeu",
+        "description": "Koffie het saam met die vroeë setlaars in die Kaap aangekom.",
+        "coordinates": [18.4, -33.9],
+        "location_name": "Kaapstad, Suid-Afrika"
+      }
+    ]
+  },
+  "robot": {
+    "afrikaans": "robot",
+    "english": "robot / traffic light",
+    "part_of_speech": "noun",
+    "source_language": "Czech",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/robot",
+    "verified": true,
+    "origin": { "word": "robota", "language": "Tsjeggies", "period": "1920", "meaning": "gedwonge arbeid", "location_name": "Praag, Tsjeggië", "coordinates": [14.4, 50.1] },
+    "sentence": "Die kar stop wanneer die robot rooi is.",
+    "narrative": "Oorspronklik 'n woord vir gedwonge arbeid, maar in Suid-Afrika gebruik ons dit ook vir verkeersligte!",
+    "stages": [
+      {
+        "word": "Robota",
+        "language": "Tsjeggies",
+        "period": "1920",
+        "description": "Karel Čapek het die woord in sy toneelstuk R.U.R. gebruik om kunsmatige mense te beskryf.",
+        "coordinates": [14.4, 50.1],
+        "location_name": "Praag, Tsjeggië"
+      },
+      {
+        "word": "Robot",
+        "language": "Engels",
+        "period": "1923",
+        "description": "Die toneelstuk is in Engels vertaal en die woord het wêreldwyd bekend geword.",
+        "coordinates": [-0.1, 51.5],
+        "location_name": "Londen, VK"
+      },
+      {
+        "word": "Robot",
+        "language": "Afrikaans",
+        "period": "1930s",
+        "description": "In Suid-Afrika word die woord uniek gebruik om na verkeersligte te verwys.",
+        "coordinates": [28.0, -26.2],
+        "location_name": "Johannesburg, SA"
+      }
+    ]
+  },
+  "baie": {
+    "afrikaans": "baie",
+    "english": "many / very",
+    "part_of_speech": "adverb",
+    "source_language": "Malay",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/baie",
+    "verified": true,
+    "origin": { "word": "banyak", "language": "Maleis", "period": "Antiek", "meaning": "baie / veel", "location_name": "Batavia, Indonesië", "coordinates": [106.8, -6.2] },
+    "sentence": "Daar is baie mense by die skool vandag.",
+    "narrative": "Een van die mees algemene woorde in Afrikaans, wat sy wortels in die Maleise taal van Suidoos-Asië het.",
+    "stages": [
+      {
+        "word": "banyak",
+        "language": "Malay",
+        "period": "Ancient",
+        "description": "Core Malay word meaning 'many' or 'much'.",
+        "coordinates": [107.0, -6.2],
+        "location_name": "Malay Archipelago (Java/Sumatra)"
+      },
+      {
+        "word": "baie",
+        "language": "Cape Malay / Afrikaans",
+        "period": "17th–18th century",
+        "description": "Adopted by Cape Malay community, replacing the Dutch 'veel' in everyday speech.",
+        "coordinates": [18.4, -33.9],
+        "location_name": "Kaapstad, South Africa"
+      }
+    ]
+  },
+  "baadjie": {
+    "afrikaans": "baadjie",
+    "english": "jacket",
+    "part_of_speech": "noun",
+    "source_language": "Malay",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/baadjie",
+    "verified": true,
+    "origin": { "word": "baju", "language": "Maleis", "period": "Antiek", "meaning": "klere / baadjie", "location_name": "Java, Indonesië", "coordinates": [110.0, -7.0] },
+    "sentence": "Trek jou baadjie aan voor jy buitentoe gaan.",
+    "narrative": "Hierdie woord wys hoe die Indiese Oseaan-handel verskillende tale verbind het.",
+    "stages": [
+      {
+        "word": "baju",
+        "language": "Malay",
+        "period": "Ancient",
+        "description": "Malay word for any garment worn on the upper body.",
+        "coordinates": [107.0, -6.2],
+        "location_name": "Batavia (Jakarta), Java"
+      },
+      {
+        "word": "badju",
+        "language": "Cape Malay",
+        "period": "17th century",
+        "description": "Arrives at the Cape with enslaved Malay people, phonetically adapted.",
+        "coordinates": [55.0, -4.0],
+        "location_name": "Indian Ocean route"
+      },
+      {
+        "word": "baadjie",
+        "language": "Afrikaans",
+        "period": "18th century",
+        "description": "Fully integrated into Afrikaans as the everyday word for jacket.",
+        "coordinates": [18.4, -33.9],
+        "location_name": "Kaapstad, South Africa"
+      }
+    ]
+  },
+  "tjommie": {
+    "afrikaans": "tjommie",
+    "english": "buddy / pal",
+    "part_of_speech": "noun",
+    "source_language": "English",
+    "wiktionary_url": "https://en.wiktionary.org/wiki/tjommie",
+    "verified": true,
+    "origin": { "word": "chum", "language": "Engels", "period": "19de eeu", "meaning": "boesemvriend", "location_name": "Londen, VK", "coordinates": [-0.1, 51.5] },
+    "sentence": "Hy is my beste tjommie en ons speel elke dag saam.",
+    "narrative": "'n Informele en vriendelike term wat sy oorsprong in die Britse Engels het.",
+    "stages": [
+      {
+        "word": "chum",
+        "language": "English",
+        "period": "19th century",
+        "description": "British informal word for a close friend or roommate.",
+        "coordinates": [-0.1, 51.5],
+        "location_name": "Britain"
+      },
+      {
+        "word": "tjommie",
+        "language": "Afrikaans",
+        "period": "19th–20th century",
+        "description": "Adapted with the Afrikaans 'tj-' click-like sound; now beloved informal slang.",
+        "coordinates": [18.4, -33.9],
+        "location_name": "Kaapstad, South Africa"
+      }
+    ]
+  },
+  "bewaarder": {
+    "afrikaans": "bewaarder",
+    "english": "guardian / ranger / custodian",
+    "part_of_speech": "noun",
+    "source_language": "Dutch / Latin",
+    "verified": true,
+    "origin": {
+      "word": "custos",
+      "language": "Latyn",
+      "period": "Antiek",
+      "meaning": "wag of beskermer",
+      "location_name": "Rome, Italië",
+      "coordinates": [12.5, 41.9]
+    },
+    "sentence": "Die bewaarder help om die renosters in die wildtuin te beskerm.",
+    "narrative": "Hierdie woord het 'n duisendjarige reis van Rome na die Nederlandse howe gemaak voordat dit in die Suid-Afrikaanse wildtuine geëindig het.",
+    "stages": [
+      {
+        "word": "custos",
+        "language": "Latyn",
+        "coordinates": [12.5, 41.9],
+        "location_name": "Rome"
+      },
+      {
+        "word": "bewaren",
+        "language": "Nederlands",
+        "coordinates": [4.9, 52.3],
+        "location_name": "Amsterdam"
+      },
+      {
+        "word": "bewaarder",
+        "language": "Afrikaans",
+        "coordinates": [31.5, -24.0],
+        "location_name": "Kruger Wildtuin, SA"
+      }
+    ]
+  },
+  "tronk": {
+    "afrikaans": "tronk",
+    "english": "jail / prison",
+    "part_of_speech": "noun",
+    "source_language": "Portuguese / Malay",
+    "verified": true,
+    "origin": {
+      "word": "tronco",
+      "language": "Portugees",
+      "period": "16de eeu",
+      "meaning": "boomstam (gebruik vir boeie)",
+      "location_name": "Lissabon, Portugal",
+      "coordinates": [-9.1, 38.7]
+    },
+    "sentence": "Die dief moes vir twee jaar tronk toe gaan.",
+    "narrative": "Oorspronklik 'n Portugese woord vir 'n boomstam waarin gevangenes vasgeketting is. Dit het via die Maleise 'terungku' na die Kaap gekom.",
+    "stages": [
+      {
+        "word": "tronco",
+        "language": "Portugees",
+        "coordinates": [-9.1, 38.7],
+        "location_name": "Portugal"
+      },
+      {
+        "word": "terungku",
+        "language": "Maleis",
+        "coordinates": [106.8, -6.2],
+        "location_name": "Batavia"
+      },
+      {
+        "word": "tronk",
+        "language": "Afrikaans",
+        "coordinates": [18.4, -33.9],
+        "location_name": "Kaapstad, SA"
+      }
+    ]
+  },
+  "verstok": {
+    "afrikaans": "verstok",
+    "english": "stubborn / hardened",
+    "part_of_speech": "adjective",
+    "source_language": "Dutch",
+    "verified": true,
+    "origin": {
+      "word": "stok",
+      "language": "Nederlands",
+      "period": "Middeleeue",
+      "meaning": "stok of paal",
+      "location_name": "Rotterdam, Nederland",
+      "coordinates": [4.5, 51.9]
+    },
+    "sentence": "Die verstokte ou man wou nie na rede luister nie.",
+    "narrative": "Dink aan 'n stok wat so hard geword het dat dit nie kan buig nie—dis waar die woord vir 'n koppige persoon vandaan kom!",
+    "stages": [
+      {
+        "word": "stok",
+        "language": "Nederlands",
+        "coordinates": [4.5, 51.9],
+        "location_name": "Nederland"
+      },
+      {
+        "word": "verstok",
+        "language": "Afrikaans",
+        "coordinates": [25.0, -29.0],
+        "location_name": "Suid-Afrika"
+      }
+    ]
+  },
+  "bredie": {
+    "afrikaans": "bredie",
+    "english": "stew",
+    "part_of_speech": "noun",
+    "source_language": "Madagascar (Malagasy)",
+    "verified": true,
+    "origin": {
+      "word": "brèdes",
+      "language": "Malagassies",
+      "period": "18de eeu",
+      "meaning": "blaaragtige groente",
+      "location_name": "Antananarivo, Madagaskar",
+      "coordinates": [47.5, -18.8]
+    },
+    "sentence": "Ouma kook vandag 'n heerlike tamatiebredie vir middagete.",
+    "narrative": "Hierdie woord kom van Madagaskar! Dit beskryf die groente wat in 'n pot gekook word om 'n bredie te maak.",
+    "stages": [
+      {
+        "word": "brèdes",
+        "language": "Malagassies",
+        "coordinates": [47.5, -18.8],
+        "location_name": "Madagaskar"
+      },
+      {
+        "word": "bredie",
+        "language": "Afrikaans",
+        "coordinates": [18.4, -33.9],
+        "location_name": "Kaapstad, SA"
+      }
+    ]
+  },
+  "blatjang": {
+    "afrikaans": "blatjang",
+    "english": "chutney",
+    "part_of_speech": "noun",
+    "source_language": "Malay",
+    "verified": true,
+    "origin": {
+      "word": "belacan",
+      "language": "Maleis",
+      "period": "Antiek",
+      "meaning": "gefermenteerde garnalepasta",
+      "location_name": "Melaka, Maleisië",
+      "coordinates": [102.2, 2.2]
+    },
+    "sentence": "Ons eet altyd blatjang saam met ons bobotie.",
+    "narrative": "Blatjang het as 'n vis-pasta in Maleisië begin! By die Kaap is dit aangepas met vrugte soos appelkose om dit soet te maak.",
+    "stages": [
+      {
+        "word": "belacan",
+        "language": "Maleis",
+        "coordinates": [102.2, 2.2],
+        "location_name": "Melaka"
+      },
+      {
+        "word": "blatjang",
+        "language": "Afrikaans",
+        "coordinates": [18.4, -33.9],
+        "location_name": "Kaapstad, SA"
+      }
+    ]
+  }
+}
